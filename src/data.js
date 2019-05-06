@@ -1,30 +1,30 @@
 module.exports = [
   {
     company: 'apple-itunes',
-    logo: '/apple-itunes.svg',
+    logo: '/images/apple-itunes.svg',
     earnings: '$1.12',
     user: 'highlife18',
-    img: '/itunes.jpg'
+    img: '/images/itunes.jpg'
   },
   {
     company: 'panera-bread',
-    logo: '/panera-bread.svg',
+    logo: '/images/panera-bread.svg',
     earnings: '$1.12',
     user: 'highlife18',
-    img: '/panera.jpg'
+    img: '/images/panera.jpg'
   },
   {
     company: 'nike',
-    logo: '/nike.svg',
+    logo: '/images/nike.svg',
     earnings: '$1.12',
     user: 'highlife18',
-    img: '/nike.jpg'
+    img: '/images/nike.jpg'
   },
   {
     company: 'starbucks',
-    logo: '/starbucks.svg',
+    logo: '/images/starbucks.svg',
     earnings: '$1.12',
     user: 'highlife18',
-    img: '/starbucks.jpg'
+    img: '/images/starbucks.jpg'
   },
 ]

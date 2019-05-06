@@ -1,3 +1,15 @@
+As part of a job application I was asked to rebuild a portion of the [FluzFluz website](https://fluz.app/) using React. I elected to do so using custom CSS and the [React-Slick](https://github.com/akiran/react-slick) package for the carousel functionality.
+
+Screen-Shots:
+[laptop](./public/screenshots/browser-landscape.png)
+[iphone](./public/screenshots/6,7,other-portrait.png)
+[iphone](./public/screenshots/6,7,portrait.png)
+[ipad](./public/screenshots/ipad-landscape.png)
+[ipad](./public/screenshots/ipad-portrait.png)
+
+Visit the deployed project at: [Sam Freedgood FluzFluz React Test](http://samfreedgoodfluzfluzreacttest.surge.sh/)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

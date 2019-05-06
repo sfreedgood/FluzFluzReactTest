@@ -1,6 +1,6 @@
 @font-face {
   font-family:"DIN Pro";
-  src: url("/DINPro-Regular_13937.ttf") format("truetype");
+  src: url("/fonts/DINPro-Regular_13937.ttf") format("truetype");
 }
 
 body{
@@ -235,12 +235,28 @@ i {
     }
 }
 
+@media only screen
+  and (min-device-width: 750px)
+  and (max-device-width: 1000px) {
+    h5{
+      margin-top: 5em;
+    }
+
+    h1{
+      line-height: 1.2em;
+    }
+  }
+
 @media only screen 
   and (min-device-width: 1024px) 
   and (max-device-width: 1366px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .dollar-sign{
       height: 50%;
+    }
+
+    h1{
+      line-height: 1.2em;
     }
 }
 

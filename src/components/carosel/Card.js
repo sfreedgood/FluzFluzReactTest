@@ -1,8 +1,6 @@
 import React from 'react'
 
 const Cards = (props) => {
-  console.log(props.data.img)
-
   return(
     <div className='card'>
       <img className="card-img-top" src={`${process.env.PUBLIC_URL}${props.data.img}`} alt='person using product'/>
