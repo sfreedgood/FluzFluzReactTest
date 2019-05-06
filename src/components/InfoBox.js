@@ -3,10 +3,6 @@ import Dropdown from './dropdown/Dropdown';
 
 
 export default class InfoBox extends Component {
-  state = {
-    expanded: false
-  }
-
 
   render(){
     return(

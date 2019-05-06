@@ -14,7 +14,6 @@ class Dropdown extends Component {
   }
 
   render() { 
-    console.log(this.state.expanded)
     return (
       <div className="dropdown-container" onClick={this.dropdownClickHandler}>
         <DropdownHeader />
