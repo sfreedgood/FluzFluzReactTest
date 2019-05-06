@@ -1,36 +1,125 @@
 .section{
+  height: 75vh;
   display: flex;
-
+  padding: 3%;
+  background-color: lightgray;
 }
 
 .carosel{
-  width: 500px;
-  height: 500px;
+  border-radius: 1%;
+  height: fit-content;
+  width: 35vw;
+  background-color: white;
+}
+
+.slick-list .slick-slider{
+  margin-top: 1%;
+  border-radius: 1%;
 }
 
 .card{
+  height: fit-content;
+  padding-left: 5%;
+}
+
+.card-img-top{
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+  width: 100%;
+}
+
+.card-body{
+  height: 25vh;
   display: flex;
-  justify-content: center;
-  height: 90%;
-  width: 40%;
-  background-color: lemonchiffon;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+  margin-bottom: 2%;
+  border-radius: 1%;
+
+}
+
+.card-text-container{
+  justify-self: flex-start;
+  padding: 1em;
+}
+
+.card-text{
+  height: 50%;
+  text-align: center;
+}
+
+.logo{
+  height: 48%;
+  width: 20%;
+  vertical-align: center;
+  margin-bottom: 2%;
 }
 
 .info-container{
+  padding: 0 10%;
   width: 60vw;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.dropdown-container{
+  display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: .2em;
+
+}
+
+.dropdown-header{
+  height: 10vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+  border-radius: .2em;
+
+}
+
+.dropdown-header-text{
+  justify-content: space-between;
+  align-items: center;
+  border-radius: .2em;
+
+}
+
+.dollar-sign{
+  height: 80%;
+  border-radius: 50%;
+  animation: radial-pulse 2s infinite;
+}
+
+i {
+  border: solid rgb(130, 130, 130);
+  border-width: 0 .15em .15em 0;
+  display: inline-block;
+  padding: .25em;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes radial-pulse {
+  0% {
+    box-shadow: 0 0 0 0rem rgba(255, 0, 0, 0.5);
   }
-  to {
-    transform: rotate(360deg);
+
+  100% {
+    box-shadow: 0 0 0 .5rem rgba(255, 0, 0, 0);
   }
 }
